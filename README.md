@@ -13,6 +13,9 @@
 9. Update the dvc.yaml
 10. app.py
 
+## Project Structure
+
+```plaintext
 KDClassification_project/
 ├── .github/
 │   └── workflows/
