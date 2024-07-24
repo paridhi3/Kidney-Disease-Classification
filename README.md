@@ -13,6 +13,48 @@
 9. Update the dvc.yaml
 10. app.py
 
+KDClassification_project/
+├── .github/
+│   └── workflows/
+│       └── .gitkeep
+├── config/
+│   └── config.yaml
+├── research/
+│   └── trials.ipynb
+├── src/
+│   └── KDClassification/
+│       ├── __init__.py
+│       ├── components/
+│       │   ├── __init__.py
+│       │   ├── data_ingestion.py
+│       │   ├── prepare_base_model.py
+│       │   ├── model_training.py
+│       │   └── model_evaluation.py
+│       ├── config/
+│       │   ├── __init__.py
+│       │   └── configuration.py
+│       ├── constants/
+│       │   └── __init__.py
+│       ├── entity/
+│       │   └── __init__.py
+│       │   └── config_entity.py
+│       ├── pipeline/
+│       │   ├── __init__.py
+│       │   ├── stage_01_data_ingestion.py
+│       │   ├── stage_02_prepare_base_model.py
+│       │   ├── stage_03_model_training.py
+│       │   └── stage_04_model_evaluation.py
+│       ├── utils/
+│       │   ├── __init__.py
+│       │   └── common.py
+├── templates/
+│   └── index.html
+├── dvc.yaml
+├── params.yaml
+├── requirements.txt
+├── setup.py
+
+
 # How to run?
 ### STEPS:
 
